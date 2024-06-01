@@ -1,0 +1,43 @@
+@font-face {
+    font-family: '8bitoperator';
+    src: url('/dev/assets/fonts/8bitoperator/8bitoperator.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #ffffff;
+    font-family: '8bitoperator', sans-serif;
+    background-color: black;
+}
+
+header {
+    margin-bottom: 150px;
+}
+#name {
+    margin-bottom: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#name h1 {
+    font-size: 100px;
+}
+
+#name p {
+    color: red;
+    text-align: left;
+
+}
+
+
+#box {
+    width: 500px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    display: flex;
+    margin: 0 auto;
+}
+
